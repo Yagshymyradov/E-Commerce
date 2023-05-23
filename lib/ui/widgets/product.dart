@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 class Product extends StatelessWidget {
   Product({
@@ -14,7 +13,6 @@ class Product extends StatelessWidget {
   final String price;
   @override
   Widget build(BuildContext context) {
-    int count = 0;
     return Container(
       height: MediaQuery.of(context).size.height / 3.5,
       width: MediaQuery.of(context).size.width / 2,
